@@ -1,0 +1,464 @@
+.home
+
+{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url(../images/hero-bg.jpg );
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+
+}
+
+.logo
+{
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.caption h1
+{
+    font-size: 4.5rem !important;
+    font-weight: 600;
+}
+.caption span
+{
+    position: relative;
+}
+.caption span::after
+{
+    content: "";
+    width: 100px;
+    height: 100px;
+    font-size:2.5rem;
+    font-weight: 600;
+    position: absolute;
+    transform: translateX(-50%);
+    animation: typing 13s   infinite  ;
+    color: white;
+    
+
+}
+@keyframes typing 
+{
+    0%{content:"|"}
+    1.25%{content:"D|"}
+    2.5%{content:"De|"}
+    3.75%{content:"Des|"}
+    5%{content:"Desi|"}
+    6.25%{content:"Desig|"}
+    7.5%{content:"Design|"}
+    8.75%{content:"Designe|"}
+    10%{content:"Designer|"}
+    11.25%{content:"Designer"}
+    12.5%{content:"Designer|"}
+    13.75%{content:"Designer"}
+    15%{content:"Designer|"}
+    16.25%{content:"Designer"}
+    17.5%{content:"Designer|"}
+    18.75%{content:"Designe|"}
+    20%{content:"Design|"}
+    21.25%{content:"Desig|"}
+    22.5%{content:"Desi|"}
+    23.75%{content:"Des|"}
+    25%{content:"De|"}
+    26.25%{content:"Dev|"}
+    27.5%{content:"Deve|"}
+    28.75%{content:"Devel|"}
+    30%{content:"Develo|"}
+    31.25%{content:"Develop|"}
+    32.5%{content:"Develope|"}
+    33.75%{content:"Developer|"}
+    35%{content:"Develope|"}
+    36.25%{content:"Develop|"}
+    37.5%{content:"Develo|"}
+    38.75%{content:"Devel|"}
+    40%{content:"Deve|"}
+    41.25%{content:"Dev|"}
+    42.5%{content:"De|"}
+    43.75%{content:"D|"}
+    45%{content:"|"}
+    46.25%{content:"F|"}
+    47.5%{content:"Fr|"}
+    48.75%{content:"Fre|"}
+    50%{content:"Free|"}
+    51.25%{content:"Freel|"}
+    52.5%{content:"Freela|"}
+    53.75%{content:"Freelan|"}
+    55%{content:"Freelanc|"}
+    56.25%{content:"Freelance|"}
+    57.5%{content:"Freelancer|"}
+    58.75%{content:"Freelance|"}
+    60%{content:"Freelanc|"}
+    61.25%{content:"Freelan|"}
+    62.5%{content:"Freela|"}
+    63.75%{content:"Freel|"}
+    65%{content:"Free|"}
+    66.25%{content:"Fre|"}
+    67.5%{content:"Fr|"}
+    68.75%{content:"F|"}
+    70%{content:"|"}
+    71.25%{content:"P|"}
+    72.5%{content:"Ph|"}
+    73.75%{content:"Pho|"}
+    75%{content:"Phot|"}
+    76.25%{content:"Photo|"}
+    77.5%{content:"Photog|"}
+    78.75%{content:"Photogr|"}
+    80%{content:"Photogra|"}
+    81.25%{content:"Photograp|"}
+    82.5%{content:"Photograph|"}
+    83.75%{content:"Photographe|"}
+    85%{content:"Photographer|"}
+    86.25%{content:"Photographe|"}
+    87.5%{content:"Photograph|"}
+    88.75%{content:"Photograp|"}
+    90%{content:"Photogra|"}
+    91.25%{content:"Photogr|"}
+    92.5%{content:"Photog|"}
+    93.75%{content:"Photo|"}
+    95%{content:"Phot|"}
+    96.25%{content:"Pho|"}
+    97.5%{content:"Ph|"}
+    98.75%{content:"P|"}
+    100%{content:"|"}
+    
+
+
+}
+
+.about
+{
+    padding: 4rem 0;
+}
+.about-container
+{
+    padding: 4rem 3rem;
+    margin-bottom: 3rem;
+}
+.progress
+{
+    background-color: #cde1f8;
+    margin: 8px 0 19.2px;
+}
+
+.skills p
+{
+    font-size: 17.6px;
+    font-weight: 500;
+     margin-bottom: 1rem;
+}
+
+.aboutMe h5
+{
+    font-size: 2rem;
+    position: relative;
+    margin-bottom:1.5rem;
+}
+.aboutMe h5::after
+{
+    content: "";
+    background-color: #0078ff;
+    width: 20%;
+    height: .25rem;
+    position: absolute;
+    left: 50%;
+    top:110%;
+    transform: translateX(-50%);
+    
+
+}
+.aboutMe p
+{
+
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 0 0 1rem;
+    text-align: left;
+
+}
+.header
+{
+    margin: 0 0 4rem;
+}
+.header p
+{
+    position: relative;
+    margin-bottom: 1rem;
+}
+.header p::after
+{
+    content: "";
+    width: 5%;
+    height: 4px;
+    background-color: #0078ff;
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    transform: translateX(-50%);
+ 
+}
+.serviceBox
+{
+    padding: 0 12px;
+    margin: 0 0 48px;
+}
+.serviceBoxInner
+{
+    padding: 40 20;
+}
+.service-icon 
+{
+    margin-bottom: 1rem;
+}
+.service-icon .ico-circle 
+{
+    height: 110px;
+    width: 110px;
+    font-size: 2rem;
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    transition: all .5s;
+}
+.service-icon:hover .ico-circle  
+{
+    color: white;
+    background-color: #0078ff;
+    border-color: #cde1f8;
+}
+.counter
+{
+    padding: 8rem 0;
+    background: linear-gradient(rgba(0, 119, 255,0.7),rgba(0, 119, 255,0.7)),url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+} 
+.factInner
+{
+    color: #cde1f8;
+}
+.fact-icon  .ico-circle 
+{
+    height: 80px;
+    width: 80px;
+    font-size: 2rem;
+    border: 10px solid #cde1f8;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.portfolio
+{
+    padding: 4rem 0;
+}
+.workInnerCaption h2
+{
+    font-size: 1.2rem;
+}
+.workInner-icon span
+{
+    font-size:3rem;
+    color: #0078ff;
+}
+
+.workInner img
+{
+
+    transition: transform .75s;
+}
+.workInner:hover img
+{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+.testmonial ,.contacts
+{
+    background: linear-gradient(rgba(0, 119, 255,0.7),rgba(0, 119, 255,0.7)),url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 8rem 0;
+}
+
+.carousel-indicators [data-bs-target] {
+ 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translateY(100%);
+}
+.testmonialCaption p
+{
+    margin-bottom: 50px;
+    
+    
+    
+}
+.Blog
+{
+    padding: 64 0;
+}
+
+
+
+.singleBlog .singleBlogInner .card .cardImage
+{
+    position: relative;
+}
+.singleBlog .singleBlogInner .card .cardImage::after
+{
+    text-align: center;
+    content: "travel";
+    background-color: #0078ff;
+    color: wheat;
+    padding: 0 15 5;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%) translateY(50%);
+}
+.card-title a
+
+{
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+.card-title:hover a
+{
+    color: #0078ff;
+}
+
+.avatar
+{
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: .25rem;
+}
+
+
+
+
+
+
+.contacts
+{
+    padding: 4rem 0 0 0;
+   
+}
+
+
+
+.contacts h5
+{
+    
+    position: relative;
+}
+.contacts h5::after
+{
+    content: "";
+    background-color: #0078ff;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    top: 120%;
+    left: 0%;
+   
+}
+.common
+{
+    padding: 10 15;
+    margin-bottom: 1rem;
+}
+
+.btn-subnet
+{
+    background: #0078ff;
+    color: #fff;
+    border:4px solid #0078ff;
+    padding: 10px 24px;
+    transition:border 0.4s;
+    overflow: hidden;
+}
+.btn-subnet:hover
+{
+    border:4px solid #cde1f8;
+}
+.list-ico
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+.list-ico li
+{
+    margin-bottom: 1rem;
+}
+.list-ico span
+{
+    color: #0078ff;
+    margin-right: 10;
+}
+.icon1
+{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.icon1 li
+{
+ margin-right:10px ;
+}
+.fact-icon1
+{
+    height: 40px;
+    width: 40px;
+    color: #0078ff;
+    font-size: 1.2rem;
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.4s;
+}
+.fact-icon1:hover
+{
+    background-color: #0078ff;
+    border: 3px solid #cde1f8;
+    color: #fff;
+
+}
+
+
+.end
+{
+    background-color: #0062d3;
+    color: #fff;
+    padding: 25 0;
+    box-shadow:5px 5px 20px gray ;
+}
+.credits a
+{
+    text-decoration: none;
+    color: #fff;
+}
